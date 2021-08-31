@@ -16,6 +16,13 @@ public class MyQueueTest {
 		myQueue.push(mySecondNode);
 		myQueue.push(myThirdNode);
 		myQueue.printQueue();
+		System.out.println("Performing dequeue operations till the queue is empty!!");
+		myQueue.pop();
+		myQueue.printQueue();
+		myQueue.pop();
+		myQueue.printQueue();
+		myQueue.pop();
+		myQueue.printQueue();
 	}
 
 }

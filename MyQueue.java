@@ -20,9 +20,18 @@ public class MyQueue {
 		myLinkedList.append(element);
 	}
 	/**
+	 * to remove elements from the top of the queue
+	 * @return the queue
+	 */
+	public INode<Integer> pop()
+	{
+		return myLinkedList.pop();
+	}
+	/**
 	 * method to print elements of the stack
 	 * @return nothing
 	 */
+	
 	public void printQueue()
 	{
 		myLinkedList.printMyNodes();
