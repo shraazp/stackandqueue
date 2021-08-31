@@ -14,7 +14,13 @@ public class MyStackTest {
 		myStack.push(mySecondNode);
 		myStack.push(myThirdNode);
 		myStack.printStack();
-		
-		
+		System.out.println("Top most element of the stack:"+myStack.peak());
+		System.out.println("Performing pop operations till the stackis empty!!");
+		myStack.pop();
+		myStack.printStack();
+		myStack.pop();
+		myStack.printStack();
+		myStack.pop();
+		myStack.printStack();
 	}
 }

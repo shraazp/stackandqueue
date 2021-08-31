@@ -21,6 +21,22 @@ public class MyStack {
 		myLinkedList.add(element);
 	}
 	/**
+	 * to get the top most element of the stack
+	 * @return top most element of the stack
+	 */
+	public Integer peak()
+	{
+		return myLinkedList.head.getKey();
+	}
+	/**
+	 * to remove elements from the top of the stack
+	 * @return the stack
+	 */
+	public INode<Integer> pop()
+	{
+		return myLinkedList.pop();
+	}
+	/**
 	 * method to print elements of the stack
 	 * @return nothing
 	 */
